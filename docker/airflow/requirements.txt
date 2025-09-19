@@ -1,0 +1,12 @@
+# Core testing and development
+pytest==8.3.3
+
+# AWS integrations (S3, RDS, Secrets Manager, etc.)
+apache-airflow-providers-amazon==9.2.0
+
+# Database drivers
+psycopg2-binary==2.9.9     # PostgreSQL (RDS, Aurora, etc.)
+mysqlclient==2.2.4         # MySQL / MariaDB (if needed)
+
+# Optional: requests library for custom PythonOperators
+requests==2.32.3
